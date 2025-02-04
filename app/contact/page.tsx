@@ -8,12 +8,12 @@ import Header from '../component/Header';
 
 export default function Contact() {
   return (
-    <>
+    <div>
       <Header />
       <div className="min-h-screen bg-gradient-to-r from-purple-400 to-blue-500 flex flex-col items-center justify-center text-center p-4">
         <div className="w-full max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6">
           <h1 className="text-4xl font-bold text-gray-800">Contact Me</h1>
-          <p className="mt-2 text-lg text-gray-600">Let's work together! Reach out to me via the form below.</p>
+          <p className="mt-2 text-lg text-gray-600">Lets work together! Reach out to me via the form below.</p>
           <form className="mt-6 bg-white p-6 rounded-lg shadow-lg w-80">
             <input type="text" placeholder="Your Name" className="w-full p-2 border border-gray-300 rounded mb-3" />
             <input type="email" placeholder="Your Email" className="w-full p-2 border border-gray-300 rounded mb-3" />
@@ -24,6 +24,6 @@ export default function Contact() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
